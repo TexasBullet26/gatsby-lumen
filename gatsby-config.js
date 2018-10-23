@@ -3,12 +3,12 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    url: 'https://romantic-brattain-6a8ead.netlify.com',
+    title: 'Blog by Glenn Lanzer III',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Full-stack software developer, athlete, writer, learner.',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'TexasBullet26',
     menu: [
       {
         label: 'Articles',
@@ -24,11 +24,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
+      name: 'Glenn Lanzer III',
+      email: 'lanzertrey@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'lanzer_trey',
+      github: 'TexasBullet26',
       rss: '#',
       vk: '#',
     },
@@ -121,7 +121,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-xxxxxxxx-x' },
     },
     {
       resolve: `gatsby-plugin-google-fonts`,
